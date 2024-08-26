@@ -1,0 +1,104 @@
+# Python general
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.env.local
+*.env.production
+*.env.testing
+
+# VSCode settings
+.vscode/
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+alembic/versions/*egg-info/
+
+# DBeaver settings and workspace
+.dbeaver/
+.dbeaver-data/
+
+# SQLite database
+*.sqlite3
+*.db
+*.sqlite
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Logs and other generated files
+*.log
+*.pot
+*.pid
+*.cover
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pytestdebug.log
+
+
+# FastAPI and Gunicorn
+*.pid
+*.sock
+*.log
+
+# Mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
