@@ -12,11 +12,11 @@ Este proyecto es una API de tareas desarrollada con Python, FastAPI, SQLAlchemy 
 - Pipenv: Herramienta de gestión de entornos y dependencias, que facilita el manejo de paquetes y entornos virtuales.
 
 ## Instalación:
-- Cola el repositorio: git clone https://github.com/AyelenSarco/taskAPI.git
-- Navega al directorio del proyecto : cd taskAPI
-- Instala las dependencias usando Pipenv: pipenv install
-- Activa el entorno virtual: pipenv shell
+- Clona el repositorio: `git clone https://github.com/AyelenSarco/taskAPI.git`
+- Navega al directorio del proyecto : `cd taskAPI`
+- Instala las dependencias usando Pipenv: `pipenv install`
+- Activa el entorno virtual: `pipenv shell`
 
 ## Uso
-- Para iniciar la api usa: uvicorn app.main:app --reload
+- Para iniciar la api usa: `uvicorn app.main:app --reload`
 - Visita http://127.0.0.1:8000/docs para ver la documentación interactiva generada automáticamente por FastAPI.
